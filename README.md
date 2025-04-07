@@ -32,7 +32,28 @@ debe tener el resultado Terraform v1.11.3 on windows_amd64
 No use una terminal que ya tenga abierta, debe abrir una nueva después de agregar el path
 
 
-Estructura de directorios:
+## Estructura del proyecto
+
+```bash
+aws-infra/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── .gitignore
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── ec2/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── security/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf    
 
 
 ├── main.tf               # Aquí se invocan los módulos (vpc, security, ec2). Es el archivo principal que orquesta tu infraestructura.
