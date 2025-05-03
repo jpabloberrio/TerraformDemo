@@ -4,9 +4,11 @@
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 Descargar el paquete MSI desde https://awscli.amazonaws.com/AWSCLIV2.msi
+
 Ejecutar a instalar
 
-Comprobar desde la consola que se instaló AWS CLI con aws --version
+Comprobar desde la consola que se instaló AWS CLI con 
+aws --version
 El resultado debe ser así: aws-cli/2.25.11 
 
 Ingrese a su cuenta de aws y cree una access key un un secret ID, los necesitará ingresar en el siguiente paso.
